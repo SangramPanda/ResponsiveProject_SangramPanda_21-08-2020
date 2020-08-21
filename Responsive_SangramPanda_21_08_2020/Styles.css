@@ -99,7 +99,7 @@ body {
     #banner1 {
         background-color:blueviolet;
         height: 200px;
-        width: 200px;
+        width: 150px;
         padding: 10px;
         margin-left: 5px;
     }
@@ -107,15 +107,20 @@ body {
     #banner2 {
         background-color:cyan;
         height: 200px;
-        width: 200px;
+        width: 150px;
         padding: 10px;
         margin-right: 5px;
     }
     .block1 {
         height: 180px;
-        width: 430px;
+        width:350px;
         padding: 15px 5px 10px;
     }
+ 
+.main {
+    flex: 100%;
+    background-color:gray;
+}
  
 }
  
